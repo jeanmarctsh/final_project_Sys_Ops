@@ -1,0 +1,18 @@
+
+------------OBJECTIF_DES_MACHINES_CLIENTES------------
+
+Faire les différentes mises à jour directement à partir de notre dépôt local, pas sur internet. 
+
+client1
+-------
+abstract
+IP : 192.168.9.132
+utilisateur de service: ansi
+
+
+client2
+-------
+
+marco1
+IP : 192.168.9.133
+utilisateur de service: ansi

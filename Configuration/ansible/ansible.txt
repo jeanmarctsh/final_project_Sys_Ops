@@ -1,0 +1,21 @@
+Projet : Ansible Project
+Description : configuration d'iventaire (format yaml) et de différents playbook pour mon infrastructure avec 2 machines clientes
+Lien GitHub : https://github.com/jeanmarctsh/ansible_project
+Branche principale : patchlab
+
+Dans le cadre de cette partie nous avons autilisé ansible afin de configurer nos deux machines clientes. 
+
+Pourquoi ai-je utilisé ansible?
+Compte tenu de spécificités de mon ordinateur, j'ai utilisé une VM ansible pour mieux gérer les ressources de mon ordinateur: c'est-à-dire RAM et CPU
+
+outils utilisés ?
+-----------------
+1. Vscode
+2. Protocol réseau rsync
+3. OS:Linux ( pour exécuter les différentes commandes admnistratives et gestion de permissions)
+4. Deux machines clientes ci-dessous: 
+5. Hyperviseur type2 : VMware-workstation-full-17.5.0-22583795
+6. Ssh
+
+abstract: 192.168.9.132
+marco1:   192.168.9.133

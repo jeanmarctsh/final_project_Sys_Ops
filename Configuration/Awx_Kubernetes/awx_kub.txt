@@ -1,0 +1,47 @@
+1. Description
+--------------
+
+De nos jours, avoir une vision globale sur un système informatique devient de plus en plus nécessaire.
+il est important de noter que la vision globale ne suffit pas, il faut savoir organiser, planifier, exécuter, checker les différents logs.
+
+Dans le cadre de notre travail, nous avons utilisé AWX-OPERATOR, qui est un outil open source qui permet d'effectuer ces différentes tâches.
+
+
+2. Outils utilisés
+------------------
+
+- OS: LINUX
+- KUBERNETES
+- VS_CODE
+- SSH
+- HYPERVISEUR type 2 : vmware_workstation
+- PROTOCOLE RSYNC
+- DOCKER
+
+
+-------------------------------------DIFFERENTS LIENS POUR L'INSTALLATION AWX_ET_DU_DRIVER_DOCKER------------------------------------------------
+
+Installation d'un CLUSTER MINIKUBE pour KUBERNETES
+
+- https://kubernetes.io/fr/docs/tasks/tools/install-minikube
+
+Installation de docker
+
+- https://docs.docker.com/engine/install/ubuntu
+- https://docs.docker.com/compose/install/linux/#install-using-the-repository
+
+
+
+
+Pour installer AWX :
+
+- https://github.com/ansible/awx-operator/blob/devel/docs/installation/creating-a-minikube-cluster-for-testing.md
+- https://github.com/ansible/awx-operator/blob/devel/docs/installation/basic-install.md
+- https://kubectl.docs.kubernetes.io/installation/kustomize/
+- https://github.com/ansible/awx-operator/blob/devel/docs/installation/creating-a-minikube-cluster-for-testing.md
+- https://github.com/ansible/awx-operator/releases
+- https://github.com/ansible/awx-operator/blob/devel/docs/installation/kind-install.md
+
+
+NB: il est important de savoir que dans la veille technologique, il arrive que certaines configurations changent, raison pour laquelle il 
+est important de se référer régulièrement à la documentation officielle afin de voir les différentes configurations à jour.

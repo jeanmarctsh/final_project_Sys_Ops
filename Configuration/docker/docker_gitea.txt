@@ -1,0 +1,43 @@
+Projet : déploiement de gitea
+Description : Déploiement de Gitea avec docker-compose afin de l'utiliser pour le versioning
+Lien GitHub : https://github.com/jeanmarctsh/gitea_deploy/tree/gitea
+Branche principale : gitea
+
+
+1. DESCRIPTION
+--------------
+
+Dans le cadre de cette partie, nous avons utilisé l'outil docker afin de déployer notre serveur Gitea
+
+1.1 DEFINITION
+--------------
+Gitea est un service de développement logiciel tout-en-un, simple et auto-hébergé. Il inclut l'hébergement Git, la revue
+de code, la collaboration en équipe, le registre de paquets et le CI/CD.
+
+2. OUTILS UTILISES
+------------------
+
+- De la gestion de ports pour s'authentifier en SSh sans problème
+- De la génération des clés ssh
+- De vscode pour éditer nos différentes configurations
+- D'un serveur nginx afin de l'utiliser comme reverse-proxy
+- D'un OS (Linux) ( afin d'exécuter les différentes commandes admnistratives et de la  gestion de permission)
+- De OpenSSL afin de générer nos certificats auto-signés
+- De AWX afin de se synchroniser 
+
+
+-------------- DIFFERENTS LIENS POUR INSTALLER DOCKER (DOCKER ENGINE ET DOCKER-COMPOSE)_OPENSSL_NGINX--------------
+
+Pour installer docker engine et docker-compose
+
+- https://docs.docker.com/engine/install/ubuntu
+- https://docs.docker.com/compose/install/linux/#install-using-the-repository
+
+pour utiliser OpenSSl afin de générer les certificats
+
+- https://docs.openssl.org/3.2/man1/openssl-x509/?utm_source=chatgpt.com#examples
+
+pour la documentation officielle de nginx
+
+- https://docs.nginx.com
+
