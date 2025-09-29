@@ -1,18 +1,39 @@
 
 ------------OBJECTIF_DES_MACHINES_CLIENTES------------
 
-Faire les différentes mises à jour directement à partir de notre dépôt local, pas sur internet. 
+Effectuer les différentes mises à jour directement à partir du dépôt local et non directement sur internet. 
 
-client1
+### Prérequis
+---------
+1. SSH et génération de clés (publique et privée)
+2. Adresse IP
+3. Connaissance du répertoire : /etc/apt/sources.list.d/nom_du_fichier.list 
+4. Pourquoi 3? Afin de déclarer le dépôt local
+5. Commenter les différentes lignes de la source officielle sur : /etc/apt/sources.list
+6. Création d'utilisateur de service afin de l'utiliser dans AWX-OPERATOR au niveau de credential
+
+### client1
 -------
-abstract
+Abstract
 IP : 192.168.9.132
-utilisateur de service: ansi
+Utilisateur de service: ansi
 
 
-client2
+### client2
 -------
 
 marco1
-IP : 192.168.9.133
-utilisateur de service: ansi
+IP: 192.168.9.133
+Utilisateur de service: ansi
+
+Fonctionnement
+--------------
+
+En temps normal lorsqu'on fait une mise à jour depuis Internet, les machines linux se connectent et vont vers les différentes sources renseignées au niveau fichier de configuration 
+afin de récuperer les paquets. Cela pourrait engendrer une faille du point de vue sécurité.
+
+
+Mais lorsqu'on décrit les différentes règles au niveau d'un fichier (etc/apt/sources.list.d/nom_du_fichier.list)
+cela engendre un premier niveau de sécurité. 
+
+

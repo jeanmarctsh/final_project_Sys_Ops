@@ -1,0 +1,11 @@
+Cette partie regroupe les différentes captures effectuées 
+lors du déploiement de la solution.
+
+et contient un ensemble d'image sur :
+
+1. AWX-OPERATOR
+2. GITEA
+3. ANSIBLE
+4. REFERENTIEL LOCAL
+5. WINDOWS_SERVER 2019
+6. Les machines clientes( abstract et marco1)

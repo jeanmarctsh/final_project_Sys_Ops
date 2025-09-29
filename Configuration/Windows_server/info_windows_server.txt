@@ -1,0 +1,16 @@
+### Pourquoi choisir Windows server 19 ?
+
+Comme nous le savons bien, la sécurité demeure un élément préoccupant dans le monde actuel, 
+Pour une gestion efficace de différents objets,  utilisateurs avec leurs droits (permissions)  dans un environnement Windows,  il est important de faire appel à Windows serveur.
+Dans le cadre de notre projet, nous allons utiliser Windows server 2019 afin d’assurer une authentification sécurisée et cela permettra un accès sécurisé. 
+### Etapes
+1. Installer Windows server 2019
+2. Changer le nom de la machine et paramétrer le serveur avec une IP fixe du réseau en place
+3. Installer Active directory
+4. Créer le domaine
+5. Créer une Unité d’organisation afin de bien suivre les utilisateurs  
+6. Créer différents utilisateurs avec l’utilisateur de service
+7. Intégrer les différents utilisateurs dans l’unité d’organisation créée 
+8. Donner les différentes permissions
+
+NB : éviter de connecter l’administrateur du domaine directement dans AWX pour raison de sécurité et créer uniquement un utilisateur de service comme mentionné précédemment  et donner uniquement les permissions nécessaire à l’utilisateur de service (pas besoin de donner tous les droits)

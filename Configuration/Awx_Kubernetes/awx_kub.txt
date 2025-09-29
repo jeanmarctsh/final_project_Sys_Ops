@@ -1,22 +1,23 @@
 1. Description
 --------------
 
-De nos jours, avoir une vision globale sur un système informatique devient de plus en plus nécessaire.
-il est important de noter que la vision globale ne suffit pas, il faut savoir organiser, planifier, exécuter, checker les différents logs.
+Dans le monde actuel, avoir une vision globale et détaillé d'un système informatique devient de plus en plus nécessaire.
+il est important de signifier que la vision globale ne suffit pas, car il faut savoir organiser, planifier, exécuter, checker : les différents logs, les différentes mises-à-jour, 
+les différentes machines, etc... Afin de mieux gérer son temps et d'être plus productif.
 
-Dans le cadre de notre travail, nous avons utilisé AWX-OPERATOR, qui est un outil open source qui permet d'effectuer ces différentes tâches.
+Dans le cadre du projet, nous avons utilisé AWX-OPERATOR, qui est un outil open source et cela permet d'exécuter les différentes tâches.
 
 
 2. Outils utilisés
 ------------------
 
-- OS: LINUX
-- KUBERNETES
-- VS_CODE
-- SSH
-- HYPERVISEUR type 2 : vmware_workstation
-- PROTOCOLE RSYNC
-- DOCKER
+- OS: LINUX.
+- KUBERNETES.
+- VS_CODE.
+- SSH.
+- HYPERVISEUR type 2 : vmware_workstation.
+- PROTOCOLE RSYNC.
+- DOCKER.
 
 
 -------------------------------------DIFFERENTS LIENS POUR L'INSTALLATION AWX_ET_DU_DRIVER_DOCKER------------------------------------------------
@@ -32,7 +33,6 @@ Installation de docker
 
 
 
-
 Pour installer AWX :
 
 - https://github.com/ansible/awx-operator/blob/devel/docs/installation/creating-a-minikube-cluster-for-testing.md
@@ -43,5 +43,5 @@ Pour installer AWX :
 - https://github.com/ansible/awx-operator/blob/devel/docs/installation/kind-install.md
 
 
-NB: il est important de savoir que dans la veille technologique, il arrive que certaines configurations changent, raison pour laquelle il 
-est important de se référer régulièrement à la documentation officielle afin de voir les différentes configurations à jour.
+NB: Il est important de savoir que dans la veille technologique, il arrive que certaines configurations changent, raison pour laquelle il 
+est important de se référer régulièrement à la documentation officielle afin de voir les différentes mises à jour.

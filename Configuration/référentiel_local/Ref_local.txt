@@ -1,23 +1,23 @@
-1. Description
+1. DESCRIPTION
 --------------
 
 Comme nous le savons bien, mettre à jour à jour un système n'a jamais été
 une tâche facile. Cela requiert un certain niveau de sécurité. 
 et faire cela en local apporte une touche de sécurité suite aux contrôles de différents paquets, images, dépendances, etc...
 
-2. Outils utilisés
+2. OUTILS UTILISES
 ------------------
 
-- reprepro et ses composants
-- clé GPG nouveau format
-- serveur web Apache2
-- OpenSSL pour la génération de cértificats
-- SSH
-- OS:LINUX (gestion des utilisateurs et permissions, commandes administratives, déplacement dans les différents repertoires, etc...)
-- VS_CODE
-- Protocole rsync
-- Hyperviseur type2 : vmware_workstation
-- Machine cliente ( abstract - marco1 )
+-  reprepro et ses composants
+-  clé GPG nouveau format
+-  serveur web Apache2
+-  OpenSSL pour la génération de certificats
+-  SSH
+-  OS:LINUX (gestion des utilisateurs et permissions, commandes administratives, déplacement dans les différents repertoires, etc...)
+-  VS_CODE
+-  Protocole rsync
+-  Hyperviseur type2 : vmware_workstation
+-  Machine cliente (abstract - marco1)
 
 ----------------------------------------LIENS POUR CONFIGURER REFERENTIEL_LOCAL---------------------------------
 
