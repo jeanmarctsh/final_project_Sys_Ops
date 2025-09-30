@@ -37,7 +37,7 @@ Sur ce, afin de mieux les gérer, on adopte une certaine politique de sécurité
 
 Voici un lien sur une formation dédiée de Windows server 2019:
 
-- [Formation sur l'administration windows serveur 2019](https://teachmemore.fr/courses/windows-server-2019-administration)
+- [Formation sur l'administration windows serveur 2019 avec Armel Ngando de Teachmemore](https://teachmemore.fr/courses/windows-server-2019-administration)
 
 ---
 
