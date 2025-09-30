@@ -28,7 +28,7 @@ Actuellement, nous voyons bel et bien comment les connaissances sur l'automatisa
 
 Pourquoi ai-je utilisé ansible?
 Compte tenu des spécificités de mon ordinateur, j'ai utilisé une VM ansible afin de mieux gérer les ressources de mon ordinateur: 
-c'est-à-dire RAM et CPU. Afin de configurer les machines clientes et transférer le dossier compresser au niveau du serveur Gitea avec rsync.
+c'est-à-dire RAM et CPU. Afin de configurer les machines clientes et transférer le dossier compresser au niveau du serveur Gitea avec le protocol rsync
 
 
 ---
