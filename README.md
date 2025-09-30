@@ -4,7 +4,7 @@
 
 ## SOMMAIRE
 
-1. [INTRODUCTION DU PROJET](#introduction)
+1. [INTRODUCTION](#introduction)
 2. [WORKFLOW DU PROJET](#workflow-du-projet)
 3. [ARCHITECTURE PHYSIQUE DU PROJET](#architecture-physique-du-projet)
 4. [MECANISME DE FONCTIONNEMENT DU PROJET](#architecture-physique-du-projet)
