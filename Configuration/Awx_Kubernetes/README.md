@@ -15,10 +15,9 @@
 ## INTRODUCTION
 
 Dans le monde actuel, avoir une vision globale et détaillé d'un système informatique devient de plus en plus critique.
-il est important de signifier que la vision globale ne suffit pas, car il faut savoir organiser, planifier, exécuter, checker les différents logs, les différentes mises-à-jour, 
-les différentes machines, etc... Afin de mieux gérer son temps et d'être plus productif.
+il est important de signifier que la vision globale ne suffit pas, car il faut savoir organiser, planifier, exécuter, checker les différents logs, les différentes mises à jour,  les différentes machines, etc... Afin de mieux gérer son temps et d'être plus productif.
 
-Dans le cadre du projet, nous avons utilisé __AWX-OPERATOR__, qui est un outil open source et cela permet d'exécuter les différentes tâches.
+Dans le cadre du projet, nous avons utilisé __AWX-OPERATOR__, qui est un outil open source et permet d'exécuter les différentes tâches.
 
 ---
 
@@ -53,7 +52,7 @@ __Installation d'un CLUSTER MINIKUBE pour KUBERNETES__
 
 __Installation de docker__
 
-- [installation engine](https://docs.docker.com/engine/install/ubuntu)
+- [installation docker engine](https://docs.docker.com/engine/install/ubuntu)
 - [installation docker compose](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
 
 
