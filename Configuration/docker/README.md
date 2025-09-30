@@ -78,6 +78,8 @@ Voici les différents liens permettant d'installer docker, Générer certificat 
 
 ## QUELQUES COMMANDES
 
+Voici quelques commandes docker: 
+
 - Pour lister les conteneurs actifs: docker ps
 - Pour d'afficher tous les conteneurs en cours, arrêtés: docker ps -a
 - Pour arrêter un conteneur: docker-compose stop
