@@ -32,7 +32,7 @@ Voici le workflow général de notre projet:
 
 ## ARCHITECTURE PHYSIQUE DU PROJET
 
-le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes
+le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 
 * Serveur Linux
   
@@ -63,7 +63,7 @@ le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes
 
 - Pour le référentiel local : il permettra aux machines clientes d'effectuer une mise à niveau de manière sécurisée et contrôlée.
 
-- Pour le serveur Windows 2019 : il permettra une authentification sécurisée afin d'intégrer l'utilisateur de service de l'Active Directory à AWX via le protocol LDAP
+- Pour le serveur Windows 2019 : il permettra une authentification sécurisée afin d'intégrer l'utilisateur de service de l'Active Directory à AWX via le protocol LDAP.
 
 - Pour les machines clientes : elles seront intégrées à AWX et via un utilisateur de service créé au niveau de ces dernières, les différentes configurations seront appliquées et les mises à jour ne se feront en local via le référentiel local déployé avec reprepro
 
