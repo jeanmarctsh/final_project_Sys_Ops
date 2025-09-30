@@ -72,7 +72,7 @@ Voici la version d'ansible installé sur notre la VM Linux dédiée
 
 ## QUELQUES COMANDES
 
-- Pour vérifier la synthaxe du fichier d'inventaire : ansible -i devops/inventory/hosts.yml devops/playbook/apt --check
+- Pour effectuer une commande test sans changement du fichier d'inventaire : ansible -i devops/inventory/hosts.yml devops/playbook/apt --check
 - Pour exécuter un playbook : ansible-playbook -i devops/inventory/hosts.yml devops/playbook/apt.yml -K
 - Pour Vérifier la synthaxe du fichier apt.yml : ansible-playbook -i devops/inventory/hosts.yml devops/playbook/apt.yml --syntax-check
 - Pour tester la connectivité : ansible -i devops/inventory/hosts.yml all -m ping
