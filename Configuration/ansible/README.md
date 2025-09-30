@@ -22,7 +22,7 @@ Actuellement, nous voyons bel et bien comment les connaissances sur l'automatisa
 
 ## LIEN SUR LE FICHIER DE CONFIGURATION ANSIBLE POUR LES DEUX MACHINES CLIENTES
 
-- [Lien GitHub pour la configuration avec ansible](https://github.com/jeanmarctsh/ansible_project)
+- [Lien GitHub pour la configuration du projet avec ansible](https://github.com/jeanmarctsh/ansible_project)
 - Branche principale : patchlab
 
 
