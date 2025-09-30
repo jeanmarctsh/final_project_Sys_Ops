@@ -40,7 +40,7 @@ Dans un monde informatique hyperconnecté, effectuer une mise à jour constitue 
 
 voici les différentes machines clientes de notre infrastructure : 
 
-  ### CLIENTS1
+  ### CLIENT1
   - USERNAME: Abstract
   - IP: 192.168.9.132
   - Utilisateur de service: ansi
