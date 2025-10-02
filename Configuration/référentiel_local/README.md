@@ -38,7 +38,7 @@ Dans un monde informatique hyperconnecté, il est nécessaire qu'une structure i
 
 ## CONFIGURATION COMPLETE DU REFERENTIEL LOCAL VIA UN FICHIER PDF
 
-[voir le guide de configuration sous forme de PDF](local_repository_full_steps.pdf)
+[voir le guide de configuration sous forme de PDF](local_reposutory_full_steps_update.pdf)
 
 
 
