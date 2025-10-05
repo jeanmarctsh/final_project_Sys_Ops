@@ -9,6 +9,7 @@
 3. [PREREQUIS](#prerequis)
 4. [CLIENTS](#clients)
 5. [FONCTIONNEMENT](#fonctionnement)
+6. [CLIENTS JOIGNANT LE REFERENTIEL LOCAL](#clients-joignant-le-referentiel-local)
 
 
 ---
@@ -65,5 +66,30 @@ Lorsqu'une machine cliente fait une mise à jour depuis Internet, elle se connec
 
 
 Mais lorsqu'on décrit les différentes règles au niveau d'un fichier (__etc/apt/sources.list.d/nom_du_fichier.list__) afin qu'une machine fasse directement une depuis un serveur de référentiel local géré et contrôlé cela engendre un premier niveau de sécurité car tout est contrôlé il n'existe aucune dépendance externe. Tout se passe en local. 
+
+---
+
+## CLIENTS JOIGNANT LE REFERENTIEL LOCAL
+
+Afin de permettre aux machines clientes de joindre le référentiel local, il faut procéder de la manière ci-après:
+
+  ### EXPORTATION DE LA CLE PUBLIQUE 
+
+  l'exportation de la clé publique se fait de la manière suivante :
+
+    - ![Exportation de la clé publique](export_key.PNG)
+    
+  
+  ---
+
+  ### SCRIPT POUR CONFIGURER LES MACHINES CLIENTES
+
+  Voici les deux scripts à exécuter pour permettre aux machines clientes de joindre le référentiel local
+
+    - curl -fsSL http://192.168.9.120/debian/repo-pub.key | gpg --dearmor | sudo tee /etc/apt/keyrings/nom_de_la_clé_gpg.gpg > /dev/null
+    - deb [arch=amd64 signed-by=/etc/apt/keyrings/nom_de_la_clé_gpg.gpg] http://192.168.9.120/debian jammy main
+
+    NB : 192.168.9.120 est l'adresse IP du Serveur(référentiel local). mettre l'adresse en fonction de sa configuration réseau
+
 
 
