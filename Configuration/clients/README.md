@@ -77,7 +77,7 @@ Afin de permettre aux machines clientes de joindre le référentiel local, il fa
 
   l'exportation de la clé publique se fait de la manière suivante :
 
-    - ![Exportation de la clé publique](export_key.PNG)
+  - ![Exportation de la clé publique](export_key.PNG)
     
   
   ---
