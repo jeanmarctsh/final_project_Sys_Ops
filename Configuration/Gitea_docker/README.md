@@ -42,7 +42,7 @@ __Branche principale : gitea__
 ## OUTILS UTILISES 
 
 - SSH 
-- De vscode pour éditer nos différentes configurations
+- De vscode pour éditer les différentes configurations
 - D'un serveur web nginx afin de l'utiliser comme reverse-proxy
 - D'un OS (Linux) (afin d'exécuter les différentes commandes administratives et de la  gestion de permission)
 - De OpenSSL afin de générer nos certificats auto-signés
@@ -115,4 +115,4 @@ Voici quelques commandes docker:
 
 ---
 
-__NB: Avant d'exécuter toutes les configurations, il faut en premier lieu installer Docker ENGINE ET DOCKER-COMPOSE__
+__NB: Avant d'exécuter toutes les configurations, il faut en premier lieu installer Docker ENGINE ET DOCKER-COMPOSE.__
