@@ -8,6 +8,7 @@
 2. [PREREQUIS](#prerequis)
 3. [OUTILS UTILISES](#outils-utilises)
 4. [CONFIGURATION COMPLETE DU REFERENTIEL LOCAL VIA UN FICHIER PDF](#configuration-complete-du-referentiel-local-via-un-fichier-pdf)
+5. [TEST DU REFERENTIEL LOCAL AVEC LA COMMANDE CURL](#test-du-referentiel-local-avec-la-commande-curl)
 
 
 ## INTRODUCTION
@@ -39,6 +40,18 @@ Dans un monde informatique hyperconnecté, il est nécessaire qu'une structure i
 ## CONFIGURATION COMPLETE DU REFERENTIEL LOCAL VIA UN FICHIER PDF
 
 [voir le guide de configuration sous forme de PDF](local_reposutory_full_steps_update.pdf)
+
+---
+
+## TEST DU REFERENTIEL LOCAL AVEC LA COMMANDE CURL
+
+Après avoir fini l'installation et partager la clé publique au niveau du serveur ainsi qu'au niveau du client, il faut saisir la commande ci-après:
+
+curl -I adresse IP du serveur/nom_du_dossier_créer_pour_le_référentiel_local/
+
+*__exemple:  curl -I 192.168.9.120/debian/__*
+
+Cette commande permet de tester que le serveur du référentiel est accessible et il y aura un statut avec code 200.
 
 
 
