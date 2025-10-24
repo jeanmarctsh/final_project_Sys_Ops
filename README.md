@@ -22,9 +22,12 @@ Le projet consistera à mettre en place une solution permettant une gestion cent
 
 ## WORKFLOW DU PROJET
 
+Compte tenu de la charge du travail, il serait plus judicieux de travailler avec un ordinateur ayant suffisamment des ressources en RAM (suite à la charge du travail qui augmente progressivement) et un bon stockage. De préférence un disque de type SSD supérieur ou égal  1TO.
+
 Voici le workflow général de notre projet:
 
 ![Schéma du Workflow](Images/WORKFLOW_GENERAL/WORKFLOW_GEN.png)
+
 
 ---
 
