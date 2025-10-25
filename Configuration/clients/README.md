@@ -78,6 +78,10 @@ Afin de permettre aux machines clientes de joindre le référentiel local, il fa
   l'exportation de la clé publique se fait de la manière suivante :
 
   - ![Exportation de la clé publique](export_key.PNG)
+
+  on voit bel bien comment on exporte la clé publique du serveur (référentiel local) avec la commande ci-après:
+
+  - sudo gpg --export -a [la clé publique (gpg --list-keys)] | sudo tee /var/www/nom_du_dossier_crée/nom_de_la_clé.gpg
     
   
   ---

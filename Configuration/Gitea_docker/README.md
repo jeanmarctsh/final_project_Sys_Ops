@@ -96,7 +96,7 @@ Voici les différents liens permettant d'installer docker, Générer certificat 
 
 ## DOCUMENTATION OFFICIELLE NGINX
 
-- [documentation officiel nginx](https://docs.nginx.com)
+- [documentation officielle nginx](https://docs.nginx.com)
 
 ---
 
