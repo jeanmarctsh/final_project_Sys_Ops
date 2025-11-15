@@ -5,6 +5,8 @@
 ## SOMMAIRE
 
 1. [DESCRIPTION](#description)
+2. [PROCESSUS D'INSTALLATION](#processus-dinstallation)
+3. [INTERFACE D'ACCEUIL GRAFANA](#interface-d'acceuil-grafana)
 
 
 ## DESCRIPTION
@@ -13,4 +15,5 @@ Dans un monde informatique où la gestion de ressources constitue un élément m
 
 ---
 
+## PROCESSUS D'INSTALLATION
 ## INTERFACE D'ACCEUIL GRAFANA
