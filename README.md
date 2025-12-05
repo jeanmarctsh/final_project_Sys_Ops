@@ -1,26 +1,28 @@
-# PROJET : AUTOMATISATION DU PATCH MANAGEMENT AVEC AWX ET ANSIBLE
+# 🚀 PROJET : AUTOMATISATION DU PATCH MANAGEMENT AVEC AWX ET ANSIBLE
 
 ---
 
 ## SOMMAIRE
 
-1. [INTRODUCTION](#introduction)
-2. [WORKFLOW DU PROJET](#workflow-du-projet)
-3. [ARCHITECTURE PHYSIQUE DU PROJET](#architecture-physique-du-projet)
-4. [MECANISME DE FONCTIONNEMENT DU PROJET](#architecture-physique-du-projet)
-5. [OUTILS ET TECHNOLOGIES UTILISES](#outils-et-technologies-utilises)
-6. [AUTEUR](#auteur)
+- [🚀 PROJET : AUTOMATISATION DU PATCH MANAGEMENT AVEC AWX ET ANSIBLE](#-projet--automatisation-du-patch-management-avec-awx-et-ansible)
+  - [SOMMAIRE](#sommaire)
+  - [📝 INTRODUCTION](#-introduction)
+  - [🌟 WORKFLOW DU PROJET](#-workflow-du-projet)
+  - [🌐🖧 ARCHITECTURE PHYSIQUE DU PROJET](#-architecture-physique-du-projet)
+  - [⚙️ MECANISME DE FONCTIONNEMENT DU PROJET](#️-mecanisme-de-fonctionnement-du-projet)
+  - [🧰 OUTILS ET TECHNOLOGIES UTILISES](#-outils-et-technologies-utilises)
+  - [✍️ AUTEUR](#️-auteur)
 
 ---
 
-## INTRODUCTION
+## 📝 INTRODUCTION
 
 De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique de mettre en place plusieurs mécanismes permettant de limiter les différents risques de compromission du système existant. De ce fait, il est très important qu’une équipe IT sache comment mettre en place divers mécanisme afin non seulement d'en assurer la sécurité mais aussi d’être plus productif et de mieux gérer la complexité du temps en termes de déploiement massif voir lors d’une simple mise à niveau.  Utiliser un outil dépend du besoin que l’on rencontre en entreprise, dans le monde IT actuel il y a une forte émergence dans le domaine de sécurité, du Cloud, des ressources (physique ou virtuelle), d’automatisation, etc...  En effet, automatiser c’est bien mais il faut savoir quoi automatiser afin de réduire les erreurs humaines. 
 Le projet consistera à mettre en place une solution permettant une gestion centralisée via ansible et AWX afin d’avoir une vision globale de différents correctifs (paquets, images, etc…) et aussi de permettre une mise à niveau de manière plus sécurisée et contrôlée. Sur ce, afin de  bien mener le projet, nous allons adopter les notions telles que: la sécurité (local, d'utilisateur), l'automatisation, la synchronisation, le versioning, la planification, etc...
 
 ---
 
-## WORKFLOW DU PROJET
+## 🌟 WORKFLOW DU PROJET
 
 Compte tenu de la charge du travail, il serait plus judicieux de travailler avec un ordinateur ayant suffisamment des ressources en RAM (suite à la charge du travail qui augmente progressivement) et un bon stockage. De préférence un disque de type SSD supérieur ou égal  1TO.
 
@@ -33,7 +35,7 @@ Voici le workflow général de notre projet:
 
 
 
-## ARCHITECTURE PHYSIQUE DU PROJET
+## 🌐🖧 ARCHITECTURE PHYSIQUE DU PROJET
 
 le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 
@@ -56,7 +58,7 @@ le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 
 ---
 
-## MECANISME DE FONCTIONNEMENT DU PROJET
+## ⚙️ MECANISME DE FONCTIONNEMENT DU PROJET
 
 - Pour le serveur AWX : il sera le gestionnaire central de notre projet, synchronisé avec Gitea afin de récupérer automatiquement les différents fichiers de configuration. Et la mise à niveau  pourra se faire de manière contrôlée.
 
@@ -73,7 +75,7 @@ le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 
 ---
 
-## OUTILS ET TECHNOLOGIES UTILISES
+## 🧰 OUTILS ET TECHNOLOGIES UTILISES
 
 * Comme système d'exploitation nous avons utilisé :
 
@@ -98,7 +100,7 @@ le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 
 ---
 
-## AUTEUR
+## ✍️ AUTEUR
 - Nom : Ngandu Jean-Marc
 - E-mail: jeanmarctshimbombo@gmail.com
 - Github : 
