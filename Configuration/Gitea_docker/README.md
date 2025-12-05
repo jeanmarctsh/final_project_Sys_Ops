@@ -7,7 +7,7 @@
 - [🚀 PROJET: DEPLOIMENT DE GITEA AVEC DOCKER](#-projet-deploiment-de-gitea-avec-docker)
   - [SOMMAIRE](#sommaire)
   - [📝 INTRODUCTION](#-introduction)
-  - [📎 LIEN GITHUB SUR LE FICHIER DE CONFIGURATION  GITEA AVEC DOCKER](#-lien-github-sur-le-fichier-de-configuration--gitea-avec-docker)
+  - [🐙 LIEN GITHUB SUR LE FICHIER DE CONFIGURATION  GITEA AVEC DOCKER](#-lien-github-sur-le-fichier-de-configuration--gitea-avec-docker)
   - [🔧 PREREQUIS](#-prerequis)
   - [🧰 OUTILS UTILISES](#-outils-utilises)
   - [🛠️ INSTALLATION DE GITEA](#️-installation-de-gitea)
@@ -24,7 +24,7 @@
 
 De nos jours, la gestion de différentes ressources telles que (RAM,CPU,DISQUE) constitue un lévier puissant permettant de déployer divers types d'application, logiciel, etc... Afin de maximiser ces différentes ressources il serait mieux de le faire de manière plus isolée pour ne point pertuber le fonctionnement de la machine hôte. Et cela qu'intervient l'importance de la conteneurisation avec Docker. Dans le cadre de notre projet, nous allons déployé un serveur gitea avec docker. 
 
-## 📎 LIEN GITHUB SUR LE FICHIER DE CONFIGURATION  GITEA AVEC DOCKER
+## 🐙 LIEN GITHUB SUR LE FICHIER DE CONFIGURATION  GITEA AVEC DOCKER
 
 [Lien GitHub du fichier de configuration](https://github.com/jeanmarctsh/gitea_deploy/tree/gitea)
 
