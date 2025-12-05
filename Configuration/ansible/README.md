@@ -1,26 +1,28 @@
-# Projet : CONFIGURATION AVEC ANSIBLE
+# 🚀 Projet : CONFIGURATION AVEC ANSIBLE
 
 ---
 
 ## SOMMAIRE
-1. [INTRODUCTION](#introduction)
-2. [LIEN DU FICHIER DE CONFIGURATION ANSIBLE POUR LES DEUX MACHINES CLIENTES](#lien-sur-le-fichier-de-configuration-ansible-pour-les-deux-machines-clientes)
-3. [PREREQUIS](#prerequis)
-4. [OUTILS UTILISES](#outils-utilises)
-5. [INSTALLATION ANSIBLE](#installation-ansible)
-6. [VERSION ANSIBLE INSTALLEE](#installation-ansible)
-7. [QUELQUES COMANDES](#quelques-comandes)
+- [🚀 Projet : CONFIGURATION AVEC ANSIBLE](#-projet--configuration-avec-ansible)
+  - [SOMMAIRE](#sommaire)
+  - [📝 INTRODUCTION](#-introduction)
+  - [🐙 LIEN SUR LE FICHIER DE CONFIGURATION ANSIBLE POUR LES DEUX MACHINES CLIENTES](#-lien-sur-le-fichier-de-configuration-ansible-pour-les-deux-machines-clientes)
+  - [🔧 PREREQUIS](#-prerequis)
+  - [🛠️ INSTALLATION ANSIBLE](#️-installation-ansible)
+  - [🆔 VERSION ANSIBLE INSTALLEE](#-version-ansible-installee)
+  - [🧰 OUTILS UTILISES](#-outils-utilises)
+  - [🧰 QUELQUES COMANDES](#-quelques-comandes)
 
 ---
 
-## INTRODUCTION
+## 📝 INTRODUCTION
 
 Actuellement, nous voyons bel et bien comment les connaissances sur l'automatisation ne cessent de se développer dans le monde informatique. Car elles permettent de réduire les différentes erreurs humaines afin de pouvoir pousser sans problème les configurations sur plusieurs équipements à la fois et cela engendre un gain de temps maximal tout en permettant de suivre correctement les différents équipements. Dans le cadre de notre projet nous allons utilisé ansible afin de configurer nos deux machines clientes et ensuite permettre une planification progressive dans AWX en fonction du besoin.
 
 
 ---
 
-## LIEN SUR LE FICHIER DE CONFIGURATION ANSIBLE POUR LES DEUX MACHINES CLIENTES
+## 🐙 LIEN SUR LE FICHIER DE CONFIGURATION ANSIBLE POUR LES DEUX MACHINES CLIENTES
 
 - [Lien GitHub pour la configuration du projet avec ansible](https://github.com/jeanmarctsh/ansible_project)
 - Branche principale : patchlab
@@ -33,7 +35,7 @@ c'est-à-dire RAM et CPU. Afin de configurer les machines clientes et transfére
 
 ---
 
-## PREREQUIS
+## 🔧 PREREQUIS
 
 - OS : Ubuntu 22.04 LTS
 - Disque : SSD 25GO
@@ -42,7 +44,7 @@ c'est-à-dire RAM et CPU. Afin de configurer les machines clientes et transfére
 
 ---
 
-## INSTALLATION ANSIBLE
+## 🛠️ INSTALLATION ANSIBLE
 
 Afin d'installer ansible, cliquer sur le lien ci-après:
 
@@ -51,7 +53,7 @@ Afin d'installer ansible, cliquer sur le lien ci-après:
 
 ---
 
-## VERSION ANSIBLE INSTALLEE
+## 🆔 VERSION ANSIBLE INSTALLEE
 
 Voici la version d'ansible installé sur notre la VM Linux dédiée
 
@@ -59,7 +61,7 @@ Voici la version d'ansible installé sur notre la VM Linux dédiée
 
 ---
 
-## OUTILS UTILISES
+## 🧰 OUTILS UTILISES
 
 - Vscode. 
 - Protocol rsync.
@@ -70,7 +72,7 @@ Voici la version d'ansible installé sur notre la VM Linux dédiée
 
 ---
 
-## QUELQUES COMANDES
+## 🧰 QUELQUES COMANDES
 
 - Pour effectuer une commande test sans changement du fichier d'inventaire : ansible -i devops/inventory/hosts.yml devops/playbook/apt --check
 - Pour exécuter un playbook : ansible-playbook -i devops/inventory/hosts.yml devops/playbook/apt.yml -K
