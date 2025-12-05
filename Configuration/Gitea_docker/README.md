@@ -1,28 +1,30 @@
-# PROJET: DEPLOIMENT DE GITEA AVEC DOCKER
+# 🚀 PROJET: DEPLOIMENT DE GITEA AVEC DOCKER
 
 ---
 
 ## SOMMAIRE
 
-1. [INTRODUCTION](#introduction)
-2. [ LIEN GITHUB SUR LE FICHIER DE CONFIGURATION  GITEA AVEC DOCKER](#lien-github-sur-le-fichier-de-configuration--gitea-avec-docker)
-3. [INSTALLATION DE GITEA](#introduction)
-4. [PREREQUIS](#prerequis)
-5. [OUTILS UTILISES](#outils-utilises)
-6. [INSTALLATION DE GITEA](#installation-de-gitea)
-7. [EXECUTION DU FICHIER ](#execution-du-fichier)
-8. [INSTALLATION DOCKER ENGINE ET DOCKER COMPOSE](#installation-docker-engine-et-docker-compose)
-9. [GENERATION DU CERTIFICAT AUTO-SIGNE AVEC OPENSSL](#generation-du-certificat-auto-signe-avec-openssl)
-10. [DOCUMENTATION OFFICIELLE NGINX](#documentation-officielle-nginx)
-11. [QUELQUES COMMANDES](#configuration)
+- [🚀 PROJET: DEPLOIMENT DE GITEA AVEC DOCKER](#-projet-deploiment-de-gitea-avec-docker)
+  - [SOMMAIRE](#sommaire)
+  - [📝 INTRODUCTION](#-introduction)
+  - [📎 LIEN GITHUB SUR LE FICHIER DE CONFIGURATION  GITEA AVEC DOCKER](#-lien-github-sur-le-fichier-de-configuration--gitea-avec-docker)
+  - [🔧 PREREQUIS](#-prerequis)
+  - [🧰 OUTILS UTILISES](#-outils-utilises)
+  - [🛠️ INSTALLATION DE GITEA](#️-installation-de-gitea)
+  - [▶️ EXECUTION DU FICHIER](#️-execution-du-fichier)
+  - [⚙️ CONFIGURATION](#️-configuration)
+  - [🐋 INSTALLATION DOCKER ENGINE ET DOCKER COMPOSE](#-installation-docker-engine-et-docker-compose)
+  - [🔐 GENERATION DU CERTIFICAT AUTO-SIGNE AVEC OPENSSL](#-generation-du-certificat-auto-signe-avec-openssl)
+  - [📘 DOCUMENTATION OFFICIELLE NGINX](#-documentation-officielle-nginx)
+  - [🧰 QUELQUES COMMANDES](#-quelques-commandes)
 
 ---
 
-## INTRODUCTION
+## 📝 INTRODUCTION
 
 De nos jours, la gestion de différentes ressources telles que (RAM,CPU,DISQUE) constitue un lévier puissant permettant de déployer divers types d'application, logiciel, etc... Afin de maximiser ces différentes ressources il serait mieux de le faire de manière plus isolée pour ne point pertuber le fonctionnement de la machine hôte. Et cela qu'intervient l'importance de la conteneurisation avec Docker. Dans le cadre de notre projet, nous allons déployé un serveur gitea avec docker. 
 
-## LIEN GITHUB SUR LE FICHIER DE CONFIGURATION  GITEA AVEC DOCKER
+## 📎 LIEN GITHUB SUR LE FICHIER DE CONFIGURATION  GITEA AVEC DOCKER
 
 [Lien GitHub du fichier de configuration](https://github.com/jeanmarctsh/gitea_deploy/tree/gitea)
 
@@ -30,7 +32,7 @@ __Branche principale : gitea__
 
 ---
 
-## PREREQUIS
+## 🔧 PREREQUIS
 
 - OS : Ubuntu 22.04 LTS
 - Disque : SSD 25GO
@@ -39,7 +41,7 @@ __Branche principale : gitea__
 
 ---
 
-## OUTILS UTILISES 
+## 🧰 OUTILS UTILISES 
 
 - SSH 
 - De vscode pour éditer les différentes configurations
@@ -50,7 +52,7 @@ __Branche principale : gitea__
 
 ---
 
-## INSTALLATION DE GITEA
+## 🛠️ INSTALLATION DE GITEA
 
 Pour installer Gitea il faut procéder de la manière suivante:
 
@@ -60,7 +62,7 @@ Pour installer Gitea il faut procéder de la manière suivante:
 
 ---
 
-## EXECUTION DU FICHIER 
+## ▶️ EXECUTION DU FICHIER 
 
 Avant d'exécuter les différentes commandes, il faut se placer dans le dossier où se trouve le fichier de configuration
 
@@ -69,7 +71,7 @@ Avant d'exécuter les différentes commandes, il faut se placer dans le dossier 
 
 ---
 
-## CONFIGURATION
+## ⚙️ CONFIGURATION
 
 Voici une interface montrant la configuration du serveur Gitea après exécution de la commande: __*docker-compose up -d*__
 
@@ -81,26 +83,26 @@ Voici les différents liens permettant d'installer docker, Générer certificat 
 
 ---
 
-## INSTALLATION DOCKER ENGINE ET DOCKER COMPOSE
+## 🐋 INSTALLATION DOCKER ENGINE ET DOCKER COMPOSE
 
 - [installation docker](https://docs.docker.com/engine/install/ubuntu)
 - [installation docker compose](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
 
 ---
 
-## GENERATION DU CERTIFICAT AUTO-SIGNE AVEC OPENSSL
+## 🔐 GENERATION DU CERTIFICAT AUTO-SIGNE AVEC OPENSSL
 
 - [lien pour généner un certifical avec ssl](https://docs.openssl.org)
 
 ---
 
-## DOCUMENTATION OFFICIELLE NGINX
+## 📘 DOCUMENTATION OFFICIELLE NGINX
 
 - [documentation officielle nginx](https://docs.nginx.com)
 
 ---
 
-## QUELQUES COMMANDES
+## 🧰 QUELQUES COMMANDES
 
 Voici quelques commandes docker: 
 
