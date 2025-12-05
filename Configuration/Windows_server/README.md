@@ -1,17 +1,19 @@
-# PROJET : AUTHENTIFICATION ET INTEGRATION D'UN UTILISATEUR DE L'ACTIVE DIRECTORY DANS AWX-OPERATOR VIA LDAP
+# 🚀 PROJET : AUTHENTIFICATION ET INTEGRATION D'UN UTILISATEUR DE L'ACTIVE DIRECTORY DANS AWX-OPERATOR VIA LDAP
 
 ---
 
 ## SOMMAIRE
 
-1. [INTRODUCTION](#introduction)
-2. [PREREQUIS](#prerequis)
-3. [Formation sur l'administration windows serveur 2019](#formation-windows-server-2019)
-4. [IMAGE DE DIFFERENTS USERS DANS UNE UNITE D'ORGANISATION](#image-de-differents-users-dans-une-unite-dorganisation)
+- [🚀 PROJET : AUTHENTIFICATION ET INTEGRATION D'UN UTILISATEUR DE L'ACTIVE DIRECTORY DANS AWX-OPERATOR VIA LDAP](#-projet--authentification-et-integration-dun-utilisateur-de-lactive-directory-dans-awx-operator-via-ldap)
+  - [SOMMAIRE](#sommaire)
+  - [📝 INTRODUCTION](#-introduction)
+  - [🔧 PREREQUIS](#-prerequis)
+  - [🌐 FORMATION WINDOWS SERVER 2019](#-formation-windows-server-2019)
+  - [👥 IMAGE DE DIFFERENTS USERS DANS UNE UNITE D'ORGANISATION](#-image-de-differents-users-dans-une-unite-dorganisation)
 
 ---
 
-## INTRODUCTION 
+## 📝 INTRODUCTION 
 
 Dans un environnement informatique croissant, la sécurité est devenue un élément clé qui permet de gérer les différentes ressources telles que :
 
@@ -24,7 +26,7 @@ Sur ce, afin de mieux les gérer, on adopte une certaine politique de sécurité
 
 ---
 
-## PREREQUIS
+## 🔧 PREREQUIS
 
 - OS : Windows server 2019
 - Disque : SSD 60GO
@@ -33,7 +35,7 @@ Sur ce, afin de mieux les gérer, on adopte une certaine politique de sécurité
 
 ---
 
-## FORMATION WINDOWS SERVER 2019
+## 🌐 FORMATION WINDOWS SERVER 2019
 
 Voici un lien sur une formation dédiée de Windows server 2019:
 
@@ -41,6 +43,6 @@ Voici un lien sur une formation dédiée de Windows server 2019:
 
 ---
 
-## IMAGE DE DIFFERENTS USERS DANS UNE UNITE D'ORGANISATION
+## 👥 IMAGE DE DIFFERENTS USERS DANS UNE UNITE D'ORGANISATION
 
 ![Différents utilisateurs dans une Unité d'organisation Windows server](users_list.PNG)
