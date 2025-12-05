@@ -1,22 +1,24 @@
-## PROJET : CONFIGURATION DU REFERENTIEL LOCAL AVEC LE LOGICIEL REPREPRO
+## 🚀 PROJET : CONFIGURATION DU REFERENTIEL LOCAL AVEC LE LOGICIEL REPREPRO
 
 ---
 
 ## SOMMAIRE
 
-1. [INTRODUCTION](#introduction)
-2. [PREREQUIS](#prerequis)
-3. [OUTILS UTILISES](#outils-utilises)
-4. [CONFIGURATION COMPLETE DU REFERENTIEL LOCAL VIA UN FICHIER PDF](#configuration-complete-du-referentiel-local-via-un-fichier-pdf)
-5. [TEST DU REFERENTIEL LOCAL AVEC LA COMMANDE CURL](#test-du-referentiel-local-avec-la-commande-curl)
+- [🚀 PROJET : CONFIGURATION DU REFERENTIEL LOCAL AVEC LE LOGICIEL REPREPRO](#-projet--configuration-du-referentiel-local-avec-le-logiciel-reprepro)
+- [SOMMAIRE](#sommaire)
+- [📝 INTRODUCTION](#-introduction)
+- [🔧 PREREQUIS](#-prerequis)
+- [🧰 OUTILS UTILISES](#-outils-utilises)
+- [📎 CONFIGURATION COMPLETE DU REFERENTIEL LOCAL VIA UN FICHIER PDF](#-configuration-complete-du-referentiel-local-via-un-fichier-pdf)
+- [⚡ TEST DU REFERENTIEL LOCAL AVEC LA COMMANDE CURL](#-test-du-referentiel-local-avec-la-commande-curl)
 
 
-## INTRODUCTION
+## 📝 INTRODUCTION
 
 Dans un monde informatique hyperconnecté, il est nécessaire qu'une structure informatique dispose d'un référentiel local afin de permettre aux différentes machines clientes d'effectuer directement les mises à jour de manière sécurisée sans dépendre d'une connexion extérieur, cela aide à mieux contrôler les différents paquets (grâce à la clé GPG qui chiffre et signe les différents paquets ) et images dans le référentiel local. 
 
 ---
-## PREREQUIS
+## 🔧 PREREQUIS
 
 - OS : Ubuntu 22.04 LTS
 - Disque : SSD 35GO
@@ -24,7 +26,7 @@ Dans un monde informatique hyperconnecté, il est nécessaire qu'une structure i
 - HYPERVISEUR DE TYPE 1 ou 2
 
 ---
-## OUTILS UTILISES
+## 🧰 OUTILS UTILISES
 
 -  reprepro 
 -  clé GPG nouveau format
@@ -37,13 +39,13 @@ Dans un monde informatique hyperconnecté, il est nécessaire qu'une structure i
 
 ---
 
-## CONFIGURATION COMPLETE DU REFERENTIEL LOCAL VIA UN FICHIER PDF
+## 📎 CONFIGURATION COMPLETE DU REFERENTIEL LOCAL VIA UN FICHIER PDF
 
 [voir le guide de configuration sous forme de PDF](local_reposutory_full_steps_update.pdf)
 
 ---
 
-## TEST DU REFERENTIEL LOCAL AVEC LA COMMANDE CURL
+## ⚡ TEST DU REFERENTIEL LOCAL AVEC LA COMMANDE CURL
 
 Après avoir fini l'installation et partager la clé publique au niveau du serveur ainsi qu'au niveau du client, il faut saisir la commande ci-après:
 
