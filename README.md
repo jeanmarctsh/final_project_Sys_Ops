@@ -102,8 +102,6 @@ le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 
 ## ✍️ AUTEUR
 - Nom : Ngandu Jean-Marc
-- E-mail: jeanmarctshimbombo@gmail.com
-- Github : 
-[Jean-marc](https://github.com/jeanmarctsh)
-- Linkedin : 
-[Mon LinkedIn](https://www.linkedin.com/in/jean-marc-ngandu-b60796222)
+- [![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail)](mailto:jeanmarctshimbombo@gmail.com)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jean-marc-ngandu-b60796222)
+- [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/jeanmarctsh)
