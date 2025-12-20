@@ -1,6 +1,8 @@
 # 🚀 AUTOMATISATION DU PATCH MANAGEMENT AVEC AWX ET ANSIBLE
 
 __🔄 Etant dans un monde technologique en constante évolution, ce projet reste ouvert à l'ajout de nouvelles fonctionnalités, en fonction de l'évolution  des besoins__
+
+
 __📌 Pour voir le projet complet, veuillez selectionner la branche marcojm__
 
 ---
