@@ -17,8 +17,8 @@
 
 ## 📝 INTRODUCTION
 
-De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique de mettre en place plusieurs mécanismes permettant de limiter les différents risques de compromission du système existant. De ce fait, il est très important qu’une équipe IT sache comment mettre en place divers mécanisme afin non seulement d'en assurer la sécurité mais aussi d’être plus productif et de mieux gérer la complexité du temps en termes de déploiement massif voir lors d’une simple mise à niveau.  Utiliser un outil dépend du besoin que l’on rencontre en entreprise, dans le monde IT actuel il y a une forte émergence dans le domaine de sécurité, du Cloud, des ressources (physique ou virtuelle), d’automatisation, etc...  En effet, automatiser c’est bien mais il faut savoir quoi automatiser afin de réduire les erreurs humaines. 
-Le projet consistera à mettre en place une solution permettant une gestion centralisée via ansible et AWX afin d’avoir une vision globale de différents correctifs (paquets, images, etc…) et aussi de permettre une mise à niveau de manière plus sécurisée et contrôlée. Sur ce, afin de  bien mener le projet, nous allons adopter les notions telles que: la sécurité (local, d'utilisateur), l'automatisation, la synchronisation, le versioning, la planification, etc...
+De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique de mettre en place plusieurs mécanismes permettant de limiter les différents risques de compromission du système existant. De ce fait, il est important qu’une équipe IT sache comment mettre en place ces mécanismes afin non seulement d'en assurer la sécurité mais aussi d’être plus productif et de mieux gérer la complexité du temps en termes de déploiement massif voir lors d’une simple mise à niveau.  Utiliser un outil dépend du besoin que l’on rencontre en entreprise, dans le monde IT actuel il y a une forte émergence en ce qui concerne la sécurité, le Cloud, les ressources (physique ou virtuelle), l’automatisation, etc...  En effet, automatiser c’est bien mais il faut savoir quoi automatiser afin de réduire les erreurs humaines. 
+Le projet consistera à mettre en place une solution qui permettra de faire une gestion centralisée via ansible et AWX afin d’avoir une vision globale de différents correctifs (paquets, images, etc…) et aussi de permettre une mise à niveau de manière plus sécurisée et contrôlée. Sur ce, afin de  bien mener notre projet, nous allons adopter les notions telles que: la sécurité (local, d'utilisateur), l'automatisation, la synchronisation, le versioning, la planification, etc...
 
 ---
 
@@ -79,25 +79,32 @@ le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 
 * Comme système d'exploitation nous avons utilisé :
 
-  *  Linux
-  *  Windows
+  | ID | Système d'exploitation |
+  |----|------------------------|
+  | 1  | LINUX                  |
+  | 2  | WINDOWS                |
 
 * Comme outils pour mettre en place notre projet nous avons utilisé :
 
-  * logiciel reprepro pour déployer et mettre en place le référentiel local
-  * serveur web (apache2 et nginx)
-  * git et gitea pour le versioning
-  * Kubernetes (pour déployer AWX-OPERATOR avec un cluster minikube)
-  * Docker (docker-compose) pour déployer Gitea
-  * Openssl pour générer les certificats
-  * Ansible pour configurer les machines clientes où seront exécutées les différents playbooks
-  * Windows serveur pour une authentification sécurisée en accordant les droits nécessaires aux différents utilisateurs
-  * Ssh pour générer les clés (publique et privée) et accéder à distance aux différents serveurs y compris les deux machines clientes
-  * VS_code comme éditeur + MobaXterm pour accès simultané en SSH
-  * Rsync pour le transfert de différents fichiers en local 
-  * LDAP pour permettre la liaison entre un utilisateur (de service) de l'AD dans AWX
-  * Hyperviseur de type 2 (Vmware_workstation)
 
+  | ID | Outils                                                                 | Buts |
+  |----|------------------------------------------------------------------------|------|
+  | 1  | reprepro                                                               | Déploiement et mise en place d'un dépôt APT Local|
+  | 2  | WINDOWS                                                                | comme serveur    |           |
+  | 3  |serveur web (apache2 et nginx)                                          | Pour créer un lien du dépôt local, utiliser nginx comme reverse proxy, etc...    |
+  | 4  | git et gitea                                                           | Pour le versionning et la gestion du code    |
+  | 5  |Kubernetes                                                              | Déployer AWX-OPERATOR avec un cluster minikube |
+  | 6  | Docker                                                                 | Déploiement et exécution de Gitea |
+  | 7  | Openssl                                                                | Généreration des certificats de sécutité  |
+  | 8  | Ansible                                                                | Configurer les machines clientes via différents Playbook |
+  | 9  | Windows serveur                                                        | Pour une authentification sécurisée en accordant les droits nécessaires aux différents utilisateurs |
+  | 10 | Ssh                                                                    | Pour générer les clés SSH et accéder à distance aux différents serveurs y compris les deux   machines clientes |
+  | 11 | VS_code + MobaXterm                                                    | Accéder aux machines clientes |
+  | 12 | Rsync                                                                  | Pour le transfert de différents fichiers en local | 
+  | 13 | LDAP                                                                   | Pour permettre la liaison entre un utilisateur (de service) de l'AD dans AWX |
+  | 14 | Hyperviseur de type 2 (Vmware_workstation)                             | Construction et virtualisation de  l'architecture du projet |
+
+    
 ---
 
 ## ✍️ AUTEUR
