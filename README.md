@@ -17,8 +17,13 @@
 
 ## 📝 INTRODUCTION
 
+<<<<<<< HEAD
 De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique de mettre en place plusieurs mécanismes permettant de limiter les différents risques de compromission du système existant. De ce fait, il est important qu’une équipe IT sache comment mettre en place ces mécanismes afin non seulement d'en assurer la sécurité mais aussi d’être plus productif et de mieux gérer la complexité du temps en termes de déploiement massif voir lors d’une simple mise à niveau.  Utiliser un outil dépend du besoin que l’on rencontre en entreprise, dans le monde IT actuel il y a une forte émergence en ce qui concerne la sécurité, le Cloud, les ressources (physique ou virtuelle), l’automatisation, etc...  En effet, automatiser c’est bien mais il faut savoir quoi automatiser afin de réduire les erreurs humaines. 
 Le projet consistera à mettre en place une solution qui permettra de faire une gestion centralisée via ansible et AWX afin d’avoir une vision globale de différents correctifs (paquets, images, etc…) et aussi de permettre une mise à niveau de manière plus sécurisée et contrôlée. Sur ce, afin de  bien mener notre projet, nous allons adopter les notions telles que: la sécurité (local, d'utilisateur), l'automatisation, la synchronisation, le versioning, la planification, etc...
+=======
+De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique de mettre en oeuvre divers mécanismes qui permettra  de limiter les différents risques de compromission sur le système existant. De ce fait, il est très important qu’une équipe IT sache comment mettre en place ces différents mécanismes afin non seulement d'en assurer la sécurité mais aussi d’être plus productif et de mieux gérer la complexité du temps en termes de déploiement massif voir lors d’une simple mise à niveau.  Utiliser un outil dépend du besoin que l’on rencontre en entreprise, dans le monde IT actuel il y a une forte émergence en ce qui concerne: la sécurité, le Cloud, les ressources (physique ou virtuelle), l’automatisation, etc...  En effet, automatiser c’est bien mais savoir quoi automatiser c'est mieux.
+Le projet consistera à mettre en place une solution qui permettra une gestion centralisée via ansible et AWX afin d’avoir une vision globale de différents correctifs (paquets, images, etc…) et aussi de permettre une mise à niveau de manière plus sécurisée et contrôlée. Pour bien exécuter le projet, nous allons adopter des notions telles que: la sécurité (local, d'utilisateur), l'automatisation, la synchronisation, le versioning, la planification, etc...
+>>>>>>> 441fa63cb4d2e7c6dba6b06079bdc2c47c616c11
 
 ---
 
