@@ -1,6 +1,6 @@
 
 # 🚀 GRAFANA ET PROMETHEUS
-=======
+
 # 🔄 GRAFANA ET PROMETHEUS
 # 🚧 Projet en cours de développement
 
