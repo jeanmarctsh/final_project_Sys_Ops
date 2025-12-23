@@ -17,13 +17,11 @@
 
 ## 📝 INTRODUCTION
 
-<<<<<<< HEAD
-De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique de mettre en place plusieurs mécanismes permettant de limiter les différents risques de compromission du système existant. De ce fait, il est important qu’une équipe IT sache comment mettre en place ces mécanismes afin non seulement d'en assurer la sécurité mais aussi d’être plus productif et de mieux gérer la complexité du temps en termes de déploiement massif voir lors d’une simple mise à niveau.  Utiliser un outil dépend du besoin que l’on rencontre en entreprise, dans le monde IT actuel il y a une forte émergence en ce qui concerne la sécurité, le Cloud, les ressources (physique ou virtuelle), l’automatisation, etc...  En effet, automatiser c’est bien mais il faut savoir quoi automatiser afin de réduire les erreurs humaines. 
-Le projet consistera à mettre en place une solution qui permettra de faire une gestion centralisée via ansible et AWX afin d’avoir une vision globale de différents correctifs (paquets, images, etc…) et aussi de permettre une mise à niveau de manière plus sécurisée et contrôlée. Sur ce, afin de  bien mener notre projet, nous allons adopter les notions telles que: la sécurité (local, d'utilisateur), l'automatisation, la synchronisation, le versioning, la planification, etc...
-=======
-De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique de mettre en oeuvre divers mécanismes qui permettra  de limiter les différents risques de compromission sur le système existant. De ce fait, il est très important qu’une équipe IT sache comment mettre en place ces différents mécanismes afin non seulement d'en assurer la sécurité mais aussi d’être plus productif et de mieux gérer la complexité du temps en termes de déploiement massif voir lors d’une simple mise à niveau.  Utiliser un outil dépend du besoin que l’on rencontre en entreprise, dans le monde IT actuel il y a une forte émergence en ce qui concerne: la sécurité, le Cloud, les ressources (physique ou virtuelle), l’automatisation, etc...  En effet, automatiser c’est bien mais savoir quoi automatiser c'est mieux.
-Le projet consistera à mettre en place une solution qui permettra une gestion centralisée via ansible et AWX afin d’avoir une vision globale de différents correctifs (paquets, images, etc…) et aussi de permettre une mise à niveau de manière plus sécurisée et contrôlée. Pour bien exécuter le projet, nous allons adopter des notions telles que: la sécurité (local, d'utilisateur), l'automatisation, la synchronisation, le versioning, la planification, etc...
->>>>>>> 441fa63cb4d2e7c6dba6b06079bdc2c47c616c11
+De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique la mise en œuvre de plusieurs mécanismes visant à limiter les risques de compromission du système existant. Il est donc essentiel qu’une équipe IT maîtrise ces mécanismes afin non seulement d’assurer la sécurité des systèmes, mais aussi d’améliorer la productivité et de réduire la complexité liée aux déploiements massifs ou aux simples mises à niveau.
+
+Le choix des outils dépend toujours des besoins rencontrés en entreprise. Dans le monde IT actuel, on observe une forte évolution dans des domaines tels que la sécurité, le cloud, la gestion des ressources (physiques ou virtuelles) et l’automatisation. Automatiser est une bonne pratique, mais il est encore plus important de savoir précisément quoi automatiser afin de réduire les erreurs humaines.
+
+Ce projet consiste à mettre en place une solution de gestion centralisée basée sur Ansible et AWX. Cette solution permettra d’avoir une vision globale des correctifs (paquets, images, etc.) et d’effectuer des mises à niveau de manière plus sécurisée, contrôlée et planifiée. Pour mener à bien ce projet, nous adopterons plusieurs notions clés telles que la sécurité (locale et utilisateur), l’automatisation, la synchronisation, le versioning et la planification.
 
 ---
 
@@ -67,7 +65,7 @@ le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 
 - Pour le serveur AWX : il sera le gestionnaire central de notre projet, synchronisé avec Gitea afin de récupérer automatiquement les différents fichiers de configuration. Et la mise à niveau  pourra se faire de manière contrôlée.
 
-- Pour le serveur Gitea : il sera utilisé pour le versioning de nos différents fichiers de configuration et sera intégré à AWX.
+- Pour le serveur Gitea : il sera utilisé pour le versioning de nos différents fichiers de configuration et sera intégré à AWX pour une bonne synchronisation.
 
 - Pour le serveur Ansible : il sera utilisé comme zone neutre en fonction des caractéristiques de la machine hôte  et partagera le fichier complet au serveur Gitea.
 
