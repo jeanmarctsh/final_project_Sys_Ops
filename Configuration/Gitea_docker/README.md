@@ -106,14 +106,53 @@ Voici les différents liens permettant d'installer docker, Générer certificat 
 
 Voici quelques commandes docker: 
 
-- Pour lister les conteneurs actifs: docker ps
-- Pour d'afficher tous les conteneurs en cours, arrêtés: docker ps -a
-- Pour arrêter un conteneur: docker-compose stop
-- Pour créer et démarrer un conteneur en arrière plan: docker-compose up -d
-- Pour démarrer un conteneur: docker-compose start
-- Pour arrêter et supprimer un conteneur: docker-compose down
-- Pour afficher le détail d'un conteneur: docker inspect id_image
-- Pour supprimer une image: docker rmi id_conteneur ou nom_conteneur
+- Pour lister les conteneurs actifs: 
+
+```shell 
+$ docker ps
+```
+
+- Pour d'afficher tous les conteneurs en cours, arrêtés: 
+
+```shell 
+$ docker ps -a
+```
+
+- Pour arrêter un conteneur: 
+
+```shell 
+$ docker-compose stop
+```
+
+- Pour créer et démarrer un conteneur en arrière plan: 
+
+```shell 
+$ docker compose up -d
+```
+
+- Pour démarrer un conteneur: 
+
+```shell 
+$ docker-compose start
+```  
+
+- Pour arrêter et supprimer un conteneur: 
+
+```shell 
+$ docker-compose down
+```
+
+- Pour afficher le détail d'un conteneur: 
+
+```shell 
+$ docker inspect id_image
+```
+
+- Pour supprimer une image: 
+
+```shell 
+$ docker rmi id_conteneur ou nom_conteneur
+```
 
 ---
 
