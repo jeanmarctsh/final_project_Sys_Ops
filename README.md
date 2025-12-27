@@ -17,11 +17,12 @@
 
 ## 📝 INTRODUCTION
 
-De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique la mise en œuvre de plusieurs mécanismes visant à limiter les risques de compromission du système existant. Il est donc essentiel qu’une équipe IT maîtrise ces mécanismes afin non seulement d’assurer la sécurité des systèmes, mais aussi d’améliorer la productivité et de réduire la complexité liée aux déploiements massifs ou aux simples mises à niveau.
+De nos jours, gérer un système informatique en toute sécurité n’a jamais été une tâche facile. Cela implique la mise en oeuvre de plusieurs mécanismes visant à limiter les risques de compromission du système existant. Il est donc essentiel et nécessaire de nos jours qu’une équipe IT maîtrise ces mécanismes afin non seulement d’assurer la sécurité des systèmes, mais aussi d’améliorer la productivité et de réduire la complexité liée aux déploiements massifs ou aux simples mises à niveau.
 
-Le choix des outils dépend toujours des besoins rencontrés en entreprise. Dans le monde IT actuel, on observe une forte évolution dans des domaines tels que la sécurité, le cloud, la gestion des ressources (physiques ou virtuelles) et l’automatisation. Automatiser est une bonne pratique, mais il est encore plus important de savoir précisément quoi automatiser afin de réduire les erreurs humaines.
+Le choix des outils dépend toujours des besoins rencontrés en entreprise. Dans le monde IT actuel, on observe une forte évolution dans des domaines tels que la sécurité, le cloud, la gestion des ressources (physiques ou virtuelles) ainsi que celui de l'automatisation. 
+Automatiser est une bonne pratique, mais il est encore plus important de savoir précisément quoi automatiser afin de réduire les erreurs humaines.
 
-Ce projet consiste à mettre en place une solution de gestion centralisée basée sur Ansible et AWX. Cette solution permettra d’avoir une vision globale des correctifs (paquets, images, etc.) et d’effectuer des mises à niveau de manière plus sécurisée, contrôlée et planifiée. Pour mener à bien ce projet, nous adopterons plusieurs notions clés telles que la sécurité (locale et utilisateur), l’automatisation, la synchronisation, le versioning et la planification.
+Ce projet consiste à mettre en place une solution de gestion centralisée basée sur Ansible et AWX. Cette solution permettra d’avoir une vision globale de différents correctifs (paquets, images, etc.) et d’effectuer des mises à niveau de manière plus sécurisée, contrôlée et planifiée. Pour mener à bien ce projet, nous adopterons plusieurs notions clés telles que la sécurité (locale et utilisateur), l’automatisation, la synchronisation, le versioning et la planification.
 
 ---
 
@@ -90,22 +91,21 @@ le projet comprend : 4 Serveurs Linux, 1 Serveur Windows et 2 machines clientes.
 * Comme outils pour mettre en place notre projet nous avons utilisé :
 
 
-  | ID | Outils                                                                 | Buts |
-  |----|------------------------------------------------------------------------|------|
+  | ID | OUTILS                                                                 | OBJECTIFS |
+  |----|------------------------------------------------------------------------|-----------|
   | 1  | reprepro                                                               | Déploiement et mise en place d'un dépôt APT Local|
-  | 2  | WINDOWS                                                                | comme serveur    |           |
-  | 3  |serveur web (apache2 et nginx)                                          | Pour créer un lien du dépôt local, utiliser nginx comme reverse proxy, etc...    |
-  | 4  | git et gitea                                                           | Pour le versionning et la gestion du code    |
-  | 5  |Kubernetes                                                              | Déployer AWX-OPERATOR avec un cluster minikube |
-  | 6  | Docker                                                                 | Déploiement et exécution de Gitea |
-  | 7  | Openssl                                                                | Généreration des certificats de sécutité  |
-  | 8  | Ansible                                                                | Configurer les machines clientes via différents Playbook |
-  | 9  | Windows serveur                                                        | Pour une authentification sécurisée en accordant les droits nécessaires aux différents utilisateurs |
-  | 10 | Ssh                                                                    | Pour générer les clés SSH et accéder à distance aux différents serveurs y compris les deux   machines clientes |
-  | 11 | VS_code + MobaXterm                                                    | Accéder aux machines clientes |
-  | 12 | Rsync                                                                  | Pour le transfert de différents fichiers en local | 
-  | 13 | LDAP                                                                   | Pour permettre la liaison entre un utilisateur (de service) de l'AD dans AWX |
-  | 14 | Hyperviseur de type 2 (Vmware_workstation)                             | Construction et virtualisation de  l'architecture du projet |
+  | 2  | Serveur web (apache2 et nginx)                                          | Pour créer un lien symbolique du dépôt local, utiliser nginx comme reverse proxy, etc...    |
+  | 3  | git et gitea                                                           | Pour le versionning et la gestion du code    |
+  | 4  | Kubernetes                                                              | Déployer AWX-OPERATOR avec un cluster minikube |
+  | 5  | Docker                                                                 | Déploiement et exécution de Gitea |
+  | 6  | Openssl                                                                | Généreration des certificats de sécutité  |
+  | 7  | Ansible                                                                | Configurer les machines clientes via différents Playbook |
+  | 8  | Windows serveur                                                        | Pour une authentification sécurisée, gestion des droits nécessaires pour les utilisateurs |
+  | 9 | Ssh                                                                    | Pour générer les clés SSH |
+  | 10 | VS_code + MobaXterm                                                    | Accès à distance |
+  | 11 | Rsync                                                                  | Pour le transfert de différents fichiers en local | 
+  | 12 | LDAP                                                                   | Pour permettre la liaison entre un utilisateur (de service) de l'AD dans AWX |
+  | 13 | Hyperviseur de type 2 (Vmware_workstation)                             | Construction et virtualisation de  l'architecture du projet |
 
     
 ---
