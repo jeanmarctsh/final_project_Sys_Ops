@@ -56,9 +56,22 @@ __Branche principale : gitea__
 
 Pour installer Gitea il faut procéder de la manière suivante:
 
-- sudo mkdir /home/username nom_du_dossier (exemple: sudo mkdir /home/gitea/gitea_folder)
-- sudo cd gitea_folder && nano docker-compose.yml (dans docker-compose.yml copier: https://github.com/jeanmarctsh/gitea_deploy/tree/gitea) 
-- soit : sudo cd gitea_folder && nano gitea.yml (dans gitea.yml copier: https://github.com/jeanmarctsh/gitea_deploy/tree/gitea)
+```shell 
+$ sudo mkdir /home/username nom_du_dossier
+```
+exemple: sudo mkdir /home/gitea/gitea_folder
+
+```shell 
+$ sudo cd gitea_folder && nano docker-compose.yml
+```
+Dans docker-compose.yml, copier et adapter l'exemple de configuration en fonction de vos besoins. Voici le lien: https://github.com/jeanmarctsh/gitea_deploy/tree/gitea) 
+
+soit: 
+
+```shell 
+$ sudo cd gitea_folder && nano gitea.yml
+```
+Dans gitea.yml, copier et adapter l'exemple de configuration en fonction de vos besoins. Voici le lien: https://github.com/jeanmarctsh/gitea_deploy/tree/gitea
 
 ---
 
@@ -66,8 +79,25 @@ Pour installer Gitea il faut procéder de la manière suivante:
 
 Avant d'exécuter les différentes commandes, il faut se placer dans le dossier où se trouve le fichier de configuration
 
-- avec docker-compose.yml comme nom du fichier : docker-compose up -d
-- avec gitea comme nom du fichier: docker-compose -f gitea.yml up -d
+Avec docker-compose.yml comme nom de fichier: 
+
+__Si le repertoire du travail se trouve dans la home directory__
+
+```shell 
+$ cd /home/username/gitea_folder
+```
+```shell 
+$ docker-compose up -d
+```
+
+Avec gitea comme nom du fichier: 
+
+```shell 
+$ cd /home/username/gitea_folder
+```
+```shell 
+$ docker-compose -f gitea.yml up -d
+```
 
 ---
 
