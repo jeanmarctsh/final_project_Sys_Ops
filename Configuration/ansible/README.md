@@ -17,7 +17,7 @@
 
 ## 📝 INTRODUCTION
 
-Actuellement, nous voyons bel et bien comment les connaissances sur l'automatisation ne cessent de se développer dans le monde informatique. Car elles permettent de réduire les différentes erreurs humaines afin de pouvoir pousser sans problème les configurations sur plusieurs équipements à la fois et cela engendre un gain de temps maximal tout en permettant de suivre correctement les différents équipements. Dans le cadre de notre projet nous allons utilisé ansible afin de configurer nos deux machines clientes et ensuite permettre une planification progressive dans AWX en fonction du besoin.
+Actuellement, nous voyons bel et bien comment les connaissances sur l'automatisation ne cessent de se développer dans le monde informatique. Car elles permettent de réduire les différentes erreurs humaines afin de pouvoir pousser sans problème les configurations sur plusieurs équipements à la fois et cela engendre un gain de temps maximal. Dans le cadre de notre projet nous allons utilisé ansible afin de configurer nos deux machines clientes et ensuite permettre une planification progressive au niveau d'AWX et ce, en fonction du besoin.
 
 
 ---
@@ -68,16 +68,36 @@ Voici la version d'ansible installé sur notre la VM Linux dédiée
 - OS: Linux (pour exécuter les différentes commandes administratives et la gestion des utilisateurs ainsi que de différentes permissions).
 - SSH
 - Hyperviseur type2: VMware-workstation-full-17.5.0-22583795.
-- Deux machines clientes ci-dessous : *abstract: 192.168.9.132* *marco1: 192.168.9.133*
+- Deux machines clientes: *abstract: 192.168.9.132* *marco1: 192.168.9.133*
 
 ---
 
 ## 🧰 QUELQUES COMANDES
 
-- Pour effectuer une commande test sans changement du fichier d'inventaire : ansible -i devops/inventory/hosts.yml devops/playbook/apt --check
-- Pour exécuter un playbook : ansible-playbook -i devops/inventory/hosts.yml devops/playbook/apt.yml -K
-- Pour Vérifier la synthaxe du fichier apt.yml : ansible-playbook -i devops/inventory/hosts.yml devops/playbook/apt.yml --syntax-check
-- Pour tester la connectivité : ansible -i devops/inventory/hosts.yml all -m ping
+- Pour effectuer une commande test sans changement du fichier d'inventaire : 
+  
+```shell 
+$ ansible -i devops/inventory/hosts.yml devops/playbook/apt --check
+```
+
+- Pour exécuter un playbook : 
+  
+```shell 
+$ ansible-playbook -i devops/inventory/hosts.yml devops/playbook/apt.yml -K
+```
+ 
+- Pour Vérifier la synthaxe du fichier apt.yml : 
+  
+```shell 
+$ ansible-playbook -i devops/inventory/hosts.yml devops/playbook/apt.yml --syntax-check 
+```
+
+- Pour tester la connectivité : 
+  
+```shell 
+$ ansible -i devops/inventory/hosts.yml all -m ping 
+```
+  
 
 
 
