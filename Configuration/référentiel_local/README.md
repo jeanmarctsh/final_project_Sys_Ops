@@ -51,7 +51,11 @@ Après avoir fini l'installation et partager la clé publique au niveau du serve
 
 curl -I adresse IP du serveur/nom_du_dossier_créer_pour_le_référentiel_local/
 
-*__exemple:  curl -I 192.168.9.120/debian/__*
+voici un exemple avec une adresse IP
+
+```shell 
+$ curl -I 192.168.9.120/debian/
+```
 
 Cette commande permet de tester que le serveur du référentiel est accessible et il y aura un statut avec code 200.
 
