@@ -4,18 +4,21 @@
 
 ## SOMMAIRE
 
-1. [INTRODUCTION](#introduction)
-2. [OUTILS UTILISES](#outils-utilises)
-3. [PREREQUIS](#prerequis)
-4. [DIFFERENTS LIENS POUR L'INSTALLATION AWX_ET_DU_DRIVER_DOCKER](#differents-liens-pour-linstallation-awx_et_du_driver_docker)
-5. [INTERFACE AWX](#interface-awx)
-6. [QUELQUES COMMANDES](#quelques-commandes)
+- [PROJET : CONFIGURATION ET DEPLOIEMENT AWX](#projet--configuration-et-deploiement-awx)
+  - [SOMMAIRE](#sommaire)
+  - [INTRODUCTION](#introduction)
+  - [OUTILS UTILISES](#outils-utilises)
+  - [PREREQUIS](#prerequis)
+  - [DIFFERENTS LIENS POUR L'INSTALLATION AWX\_ET\_DU\_DRIVER\_DOCKER](#differents-liens-pour-linstallation-awx_et_du_driver_docker)
+  - [INTERFACE AWX](#interface-awx)
+  - [QUELQUES COMMANDES](#quelques-commandes)
 ---
 
 ## INTRODUCTION
 
-Dans le monde actuel, avoir une vision globale et détaillé d'un système informatique devient de plus en plus critique.
-il est important de signifier que la vision globale ne suffit pas, car il faut savoir organiser, planifier, exécuter, checker les différents logs, les différentes mises à jour,  les différentes machines, etc... Afin de mieux gérer son temps et d'être plus productif.
+Dans le monde actuel, avoir une vision globale et détaillée d'un système informatique constitue un élément de base pour le bon fonctionnement de ce dernier.
+il est important de signifier qu'une simple vision globale ne suffit pas, car il faut savoir comment organiser, planifier, exécuter, vérifier les différents logs, les différentes mises à jour,  les différentes machines du réseau, etc...
+Afin d'être productif et de reagir rapidement en cas d'un dysfonctionnement qui pourrait subvenir.
 
 Dans le cadre du projet, nous avons utilisé __AWX-OPERATOR__, qui est un outil open source et permet d'exécuter les différentes tâches.
 
@@ -84,11 +87,30 @@ Dans le cadre de l'interface d'acceuil d'awx il y en a deux:
 
 Voici quelques commandes à exécuter sur AWX déployé avec Kubernetes
  
-- Vérification des pods : kubectl get pods
-- Vérification des nodes : kubectl get nodes
-- Accéder à un pod : kubectl exec -it nom_du_pod -- /bin/bash
-- Tester la connectivité d'un utilisateur ldap : ldapsearch -x -H ldap://192.168.9.130:389 -D "readerU@marco.lan" -W -b "DC=marco,DC=lan" sAMAccountName
+- Vérification des pods : 
+  
+```shell 
+$ kubectl get pods
+```
+  
+- Vérification des nodes : 
 
+```shell 
+$ kubectl get nodes
+```
+
+- Accéder à un pod : 
+ 
+```shell 
+$ kubectl exec -it nom_du_pod -- /bin/bash
+```
+  
+- Tester la connectivité d'un utilisateur ldap : 
+ 
+```shell 
+$ ldapsearch -x -H ldap://192.168.9.130:389 -D "readerU@marco.lan" -W -b "DC=marco,DC=lan" sAMAccountName
+``` 
+  
 ---
 
 __*NB: Il est important de savoir que dans la veille technologique, il arrive que certaines configurations changent, raison pour laquelle il est important de se référer régulièrement à la documentation officielle afin de voir les différentes mises à jour*__.
