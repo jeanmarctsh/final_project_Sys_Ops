@@ -16,7 +16,7 @@
 
 ## INTODUCTION
 
-Dans un monde informatique hyperconnecté, effectuer une mise à jour constitue un élément majeur qui garantit le bon fonctionnement de différents équipements au sein d'une structure informatique. Et cela doit se faire de manière contrôlée pour éviter de compromettre le fonctionnement du système existant.  
+Dans un monde informatique hyperconnecté, effectuer une mise à jour constitue un élément majeur qui garantit le bon fonctionnement de différents équipements au sein d'un système informatique. Et cela doit se faire de manière contrôlée pour éviter la compromission et le fonctionnement du système existant.  
 
 ---
 
@@ -81,19 +81,27 @@ Afin de permettre aux machines clientes de joindre le référentiel local, il fa
 
   on voit bel bien comment on exporte la clé publique du serveur (référentiel local) avec la commande ci-après:
 
-  - sudo gpg --export -a [la clé publique (gpg --list-keys)] | sudo tee /var/www/nom_du_dossier_crée/nom_de_la_clé.gpg
+  ```shell 
+  $ sudo gpg --export -a [la clé publique (gpg --list-keys)] | sudo tee /var/www/nom_du_dossier_crée/nom_de_la_clé.gpg
+  ```
     
   
   ---
 
   ### SCRIPT POUR CONFIGURER LES MACHINES CLIENTES
 
-  Voici les deux scripts à exécuter pour permettre aux machines clientes de joindre le référentiel local
+  Voici les deux scripts à exécuter pour permettre aux machines clientes de joindre le référentiel local:  
 
-    - curl -fsSL http://192.168.9.120/debian/repo-pub.key | gpg --dearmor | sudo tee /etc/apt/keyrings/nom_de_la_clé_gpg.gpg > /dev/null
-    - deb [arch=amd64 signed-by=/etc/apt/keyrings/nom_de_la_clé_gpg.gpg] http://192.168.9.120/debian jammy main
+  ```shell 
+  $ curl -fsSL http://192.168.9.120/debian/repo-pub.key | gpg --dearmor | sudo tee /etc/apt/keyrings/nom_de_la_clé_gpg.gpg > /dev/null 
+  ```
 
-    NB : 192.168.9.120 est l'adresse IP du Serveur(référentiel local). mettre l'adresse en fonction de sa configuration réseau
+  ```shell 
+  $ sudo nano /etc/apt/sources.list.d/nom_fichier.list/
+  ```
+  ensuite coller : deb [arch=amd64 signed-by=/etc/apt/keyrings/nom_de_la_clé_gpg.gpg] http://192.168.9.120/debian jammy main
+
+  NB : 192.168.9.120 est l'adresse IP du Serveur(référentiel local). mettre l'adresse en fonction de sa configuration réseau
 
 
 
