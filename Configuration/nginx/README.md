@@ -81,7 +81,7 @@ $ sudo nano /etc/nginx/sites-available/nom_du_fichier
 ```
 Voir la configuration ici: 
 
-[Fichier de configuration gitea pour reverse proxy](nginx/gitea)
+[Fichier de configuration gitea pour reverse proxy](gitea)
 
 ```shell 
 $ sudo ln -s /etc/nginx/sites-available/nom_du_fichier /etc/nginx/sites-enabled/
