@@ -1,20 +1,20 @@
-# PROJET : CONFIGURATION ET DEPLOIEMENT AWX 
+# 🚀 PROJET : CONFIGURATION ET DEPLOIEMENT AWX 
 
 ---
 
 ## SOMMAIRE
 
-- [PROJET : CONFIGURATION ET DEPLOIEMENT AWX](#projet--configuration-et-deploiement-awx)
+- [🚀 PROJET : CONFIGURATION ET DEPLOIEMENT AWX](#-projet--configuration-et-deploiement-awx)
   - [SOMMAIRE](#sommaire)
-  - [INTRODUCTION](#introduction)
-  - [OUTILS UTILISES](#outils-utilises)
-  - [PREREQUIS](#prerequis)
-  - [DIFFERENTS LIENS POUR L'INSTALLATION AWX\_ET\_DU\_DRIVER\_DOCKER](#differents-liens-pour-linstallation-awx_et_du_driver_docker)
-  - [INTERFACE AWX](#interface-awx)
-  - [QUELQUES COMMANDES](#quelques-commandes)
+  - [📝 INTRODUCTION](#-introduction)
+  - [🛠️ OUTILS UTILISES](#️-outils-utilises)
+  - [🔧 PREREQUIS](#-prerequis)
+  - [🐙 DIFFERENTS LIENS POUR L'INSTALLATION AWX\_ET\_DU\_DRIVER\_DOCKER](#-differents-liens-pour-linstallation-awx_et_du_driver_docker)
+  - [🏠 INTERFACE D'ACCEUIL AWX](#-interface-dacceuil-awx)
+  - [🧰 QUELQUES COMMANDES](#-quelques-commandes)
 ---
 
-## INTRODUCTION
+## 📝 INTRODUCTION
 
 Dans le monde actuel, avoir une vision globale et détaillée d'un système informatique constitue un élément de base pour le bon fonctionnement de ce dernier.
 il est important de signifier qu'une simple vision globale ne suffit pas, car il faut savoir comment organiser, planifier, exécuter, vérifier les différents logs, les différentes mises à jour,  les différentes machines du réseau, etc...
@@ -24,7 +24,7 @@ Dans le cadre du projet, nous avons utilisé __AWX-OPERATOR__, qui est un outil 
 
 ---
 
-## OUTILS UTILISES
+## 🛠️ OUTILS UTILISES
 
 - OS: LINUX.
 - KUBERNETES.
@@ -37,7 +37,7 @@ Dans le cadre du projet, nous avons utilisé __AWX-OPERATOR__, qui est un outil 
 ---
 
 
-## PREREQUIS
+## 🔧 PREREQUIS
 
 - OS : Ubuntu 22.04 LTS
 - Disque : SSD 40GO
@@ -47,7 +47,7 @@ Dans le cadre du projet, nous avons utilisé __AWX-OPERATOR__, qui est un outil 
 ---
 
 
-## DIFFERENTS LIENS POUR L'INSTALLATION AWX_ET_DU_DRIVER_DOCKER
+## 🐙 DIFFERENTS LIENS POUR L'INSTALLATION AWX_ET_DU_DRIVER_DOCKER
 
 __Installation d'un CLUSTER MINIKUBE pour KUBERNETES__
 
@@ -69,7 +69,7 @@ __Pour installer AWX :__
 
 ---
 
-## INTERFACE AWX
+## 🏠 INTERFACE D'ACCEUIL AWX
 
 Dans le cadre de l'interface d'acceuil d'awx il y en a deux: 
 
@@ -83,7 +83,7 @@ Dans le cadre de l'interface d'acceuil d'awx il y en a deux:
 
 ---
 
-## QUELQUES COMMANDES
+## 🧰 QUELQUES COMMANDES
 
 Voici quelques commandes à exécuter sur AWX déployé avec Kubernetes
  
