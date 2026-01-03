@@ -1,0 +1,25 @@
+server {
+    listen 80;
+    server_name patch.com;
+    return 301 https://$host$request_uri;
+}
+
+
+### il faut créer le dossier sslc et le domain patch.com au niveau de /etc/hosts
+server {
+    listen 4443 ssl;
+    server_name patch.com;
+   #ssl on;
+    ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
+    ssl_certificate     /etc/nginx/sslc/patch.com.crt;
+    ssl_certificate_key /etc/nginx/sslc/patch.com.key;
+
+
+    location / {
+
+        proxy_pass http://192.168.9.110:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+
+    }
+}
