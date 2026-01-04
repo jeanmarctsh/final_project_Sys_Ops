@@ -1,4 +1,4 @@
-# 🚀 AUTOMATISATION DU PATCH MANAGEMENT AVEC AWX ET ANSIBLE
+# 🚀 AUTOMATISATION DU PATCH MANAGEMENT AVEC AWX ET ANSIBLE.
 
 __🔄 Etant dans un monde technologique en constante évolution, ce projet reste ouvert à l'ajout de nouvelles fonctionnalités, en fonction de l'évolution  des besoins__
 
