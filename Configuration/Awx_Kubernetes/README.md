@@ -61,11 +61,7 @@ __Installation de docker__
 
 __Pour installer AWX :__
 
-- [Installation cluster AWX](https://github.com/ansible/awx-operator/blob/devel/docs/installation/creating-a-minikube-cluster-for-testing.md)
-- [installation AWX-OPERATOR](https://github.com/ansible/awx-operator/blob/devel/docs/installation/basic-install.md)
-- [installation du kustomize](https://kubectl.docs.kubernetes.io/installation/kustomize/)
-- [version de la release](https://github.com/ansible/awx-operator/releases)
-- [installation du kind](https://github.com/ansible/awx-operator/blob/devel/docs/installation/kind-install.md)
+- [Configuration complète AWX-OPERATOR](https://github.com/jeanmarctsh/awx-operator-minikube)
 
 ---
 
