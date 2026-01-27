@@ -1,23 +1,23 @@
 # 🚀 AUTOMATISATION DU PATCH MANAGEMENT AVEC AWX ET ANSIBLE.
 
-__🔄 Etant dans un monde technologique en constante évolution, ce projet reste ouvert à l'ajout de nouvelles fonctionnalités, en fonction de l'évolution  des besoins__
-
+## 🖥️ Management centralisé d'une infrastructure IT
 
 __📌 Pour voir le projet complet, veuillez selectionner la branche marcojm__
 
 ---
 
-## 📑 SOMMAIRES
+## 📌 BUT
 
-- [📌 INTRODUCTION](#-introduction)
-- [📫 CONTACT](#-contact)
-  
+Permettre une gestion centralisée d'une infrastructure IT via l'automatisation et la planification de tâches quotidiennes avec Ansible, 
+tout en assurant un contrôle efficace des utilisateurs et groupes afin de rendre l'infrastructure IT scalable, fiable et maintenable.
+
 ---
+## 📌 OBJECTIFS
 
-## 📌 INTRODUCTION
-
-De nos jours, la sécurité constitue un élément majeur en entreprise, dans le cadre de notre projet nous allons mettre en œuvre un dispositif de sécurité interne qui permettra non seulement de faire du patch management en toute sécurité mais aussi d’avoir une vision globale de nos différents paquets, d’automatiser les différentes tâches et surtout d’intégrer les différents outils DEVOPS( ansible, docker, git, kubernetes, etc...) afin de les utiliser conjointement pour une meilleure flexibilité ainsi qu’une bonne gestion de notre système informatique (doté de deux systèmes d'exploitation: LINUX ET WINDOWS). 
-
+Gérer les différents inventaires de manière dynamique afin de permettre l'identification automatique des hôtes tout en facilitant leur mise à jour. 
+Synchroniser les playbooks ansible via de dépôts(Git,Gitea) ou sources locales.
+gain de temps et réduction des erreurs humaines lors de différents déploiements et mises à jour grâce une exécution automatisée des playbooks ansible à l'aide des templates de jobs. 
+permettre la sécurité et la persistance de données via postgreSQL.
 
 ---
 
